@@ -1,0 +1,102 @@
+.mycon{
+    height: 600px;
+}
+#myNavbar{
+    z-index: 100;
+    background-image: url("../images/header.jpg");
+    background-size: cover;
+}
+#myNavbar li a, .navbar-header a{
+    color: #cdd1ce;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#myNavbar ul{
+    float: right;
+    clear: right;
+}
+#myNavbar li a:hover, .navbar-header a:hover{
+    color: #fff;
+    background: none;
+
+}
+.navv{
+    border-bottom: 1px solid #cdd1ce;
+}
+.content{
+    z-index: 1;
+}
+#about h1{
+    color: #fff;
+    font-weight: bold;
+    font-size: 48px;
+    margin: 200px 0 0 0 ;
+}
+#about p{
+    color: #cdd1ce;
+    font-size: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+#about hr{
+    border: 2px solid #F05F40;
+    width: 80px;
+}
+#about .mybtn{
+    margin: 25px;
+    background-color: #F05F40;
+    color: #ffffff;
+    font-size: 14px;
+    border-radius: 25px;
+    padding: 15px;
+    font-weight: bold;
+    margin-bottom: 200px;
+}
+#about{
+    background-image: url("../images/header.jpg");
+    background-size: cover;
+    height: auto;
+}
+#or{
+    background-color: #F05F40;
+}
+
+#or h1{
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 200px 0 0 0 ;
+}
+#or p{
+    color: #fff;
+    font-size: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+#or hr{
+    border: 2px solid #fff;
+    width: 80px;
+}
+#or .mybtn{
+    margin: 25px;
+    background-color: #fff;
+    color: #000;
+    font-size: 14px;
+    border-radius: 25px;
+    padding: 15px;
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+
+#services h1{
+    color: #514d50;
+    font-size: 28px;
+    margin: 100px 0 0 0 ;
+}
+#services hr{
+    border: 2px solid #F05F40;
+    width: 80px;
+}
+#services box{
+
+}

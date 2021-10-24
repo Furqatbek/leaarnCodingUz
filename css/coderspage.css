@@ -1,0 +1,69 @@
+* {
+  Harrington;
+  font-size: 25px;
+}
+body{
+  font-family: Maiandra GD;
+  background-color:#fff;
+  padding: 0;
+  margin:0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.ctrl-field {
+  background-color:#1abc9c;
+  padding: 0;
+  height:18vh;
+  width: 100%;
+  line-height: 90px;
+  text-align: center;
+  font-family: Maiandra GD;
+}
+
+#logo {
+  font-family: Harrington;
+  color: #fff;
+  padding-top: 40px;
+  margin: 0;
+}
+
+.ctrl-logo {
+  width: 23vh;
+  height:18vh;
+  margin: 0 auto;
+  background: url('../svg/ctrl_logo.svg') no-repeat center center;
+  background-size: 23vh 9vh;
+  font-family: Maiandra GD;
+ }
+
+.ctrl-lenta{
+  text-align:center;
+  background-color: #efefef;
+  color:#efefef;
+  line-height: 6.82vh;
+  height:6.82vh;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-family: Maiandra GD;
+}
+
+@media (max-width: 768px) {
+    .ctrl-lenta {
+      height: 20%; } }
+
+.ctrl-lenta1:hover{  background-color: #669fa6; }
+.ctrl-lenta2:hover{  background-color: #3fbf35; }
+.ctrl-lenta3:hover{  background-color: #cfba08; }
+.ctrl-lenta4:hover{  background-color: #cf086f; }
+.ctrl-lenta5:hover{  background-color: #bb351a; }
+.ctrl-lenta6:hover{  background-color: #3e60df; }
+.ctrl-lenta7:hover{  background-color: #669fa6; }
+.ctrl-lenta8:hover{  background-color: #3fbf35; }
+.ctrl-lenta9:hover{  background-color: #cfba08; }
+.ctrl-lenta10:hover{  background-color: #cf086f; }
+.ctrl-lenta11:hover{  background-color: #bb351a; }
+.ctrl-lenta12:hover{  background-color: #3e60df; }
